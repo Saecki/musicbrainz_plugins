@@ -16,8 +16,8 @@ wanted_tags = (
     "encodedby",
     "tracknumber",
     "totaltracks",
-    "disknumber",
-    "totaldisks",
+    "discnumber",
+    "totaldiscs",
     "length",
 )
 
