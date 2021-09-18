@@ -1,4 +1,5 @@
 #!/bin/sh
 
-mkdir -p $HOME/.config/MusicBrainz/Picard/plugins/
-cp ./*.py $HOME/.config/MusicBrainz/Picard/plugins/
+TARGET_DIR="${HOME}/.config/MusicBrainz/Picard/plugins/"
+mkdir -p "$TARGET_DIR"
+cp ./*.py "$TARGET_DIR"
